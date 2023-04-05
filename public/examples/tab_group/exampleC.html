@@ -1,0 +1,41 @@
+<!-- Tab Group with radio input & peer class pattern -->
+<div class="flex flex-wrap">
+  <input
+    class="peer/a after:content-['Tab_A'] appearance-none after:px-2.5 after:py-1.5 after:rounded cursor-pointer grid checked:after:bg-gray-100 checked:after:border-gray-200 after:border after:border-transparent hover:after:bg-gray-100 mr-1"
+    checked
+    value="a"
+    type="radio"
+    name="group"
+  />
+  <input
+    class="peer/b after:content-['Tab_B'] appearance-none after:px-2.5 after:py-1.5 after:rounded cursor-pointer grid checked:after:bg-gray-100 checked:after:border-gray-200 after:border after:border-transparent hover:after:bg-gray-100 mr-1"
+    value="b"
+    type="radio"
+    name="group"
+  />
+  <input
+    class="peer/c after:content-['Tab_C'] appearance-none after:px-2.5 after:py-1.5 after:rounded cursor-pointer grid checked:after:bg-gray-100 checked:after:border-gray-200 after:border after:border-transparent hover:after:bg-gray-100 mr-1"
+    value="c"
+    type="radio"
+    name="group"
+  />
+
+  <div
+    class="hidden peer-checked/a:block basis-100 w-full p-2.5 border rounded mt-1"
+    for="a"
+  >
+    Content A
+  </div>
+  <div
+    class="hidden peer-checked/b:block basis-100 w-full p-2.5 border rounded mt-1"
+    for="b"
+  >
+    Content B
+  </div>
+  <div
+    class="hidden peer-checked/c:block basis-100 w-full p-2.5 border rounded mt-1"
+    for="c"
+  >
+    Content C
+  </div>
+</div>

@@ -1,0 +1,43 @@
+<!-- Navbar with side input -->
+<div
+  class="flex flex-col md:flex-row bg-gray-100 w-full p-2.5 md:items-center md:justify-between"
+>
+  <div class="items-center block gap-5 md:flex">
+    <div class="pb-2.5 text-lg font-medium text-gray-800 md:pb-0">Navbar</div>
+    <nav
+      class="flex flex-col gap-4 py-2.5 md:flex-row md:py-0 border-y-gray-200 border-y md:border-y-0"
+    >
+      <a class="text-gray-800 hover:text-gray-700" href="#">Home</a>
+      <a class="text-gray-500 hover:text-gray-700" href="#">Link</a>
+      <a class="text-gray-500 hover:text-gray-700" href="#">Another Link</a>
+    </nav>
+  </div>
+  <div class="pt-2.5 md:pt-0">
+    <form class="flex">
+      <input
+        type="search"
+        class="w-full px-2 py-0 text-sm text-gray-700 bg-gray-100 border-r-0 border-gray-400 rounded-l form-input peer"
+        placeholder="Search..."
+      />
+      <button
+        type="submit"
+        class="bg-gray-100 border border-gray-400 rounded-r hover:bg-gray-50 peer-focus:border-blue-500 peer-focus:outline peer-focus:outline-1 peer-focus:outline-blue-500"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="scale-75 stroke-gray-500"
+        >
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+    </form>
+  </div>
+</div>
