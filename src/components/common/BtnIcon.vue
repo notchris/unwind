@@ -1,6 +1,6 @@
 <template>
     <div
-         class="p-1 w-7 text-sm bg-gray-200 hover:bg-gray-300 active:bg-gray-400 cursor-pointer border text-gray-500 rounded flex items-center justify-center">
+         class="px-1.5 py-1.5 rounded border hover:bg-gray-100 active:bg-gray-200 cursor-pointer text-gray-700  flex items-center justify-center">
         <Icon :name="icon"
               :size="16"
               :stroke-width="2"
@@ -17,11 +17,6 @@ export default defineComponent({
         icon: {
             type: String,
             required: true
-        },
-        color: {
-            type: String,
-            required: true,
-            default: "light"
         }
     },
     components: {

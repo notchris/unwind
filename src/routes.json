@@ -1,0 +1,98 @@
+[
+  {
+    "id": "accordion",
+    "title": "Accordion",
+    "description": "Accordions are panels or content areas that collapse vertically. They are generally presented as a list or a group. It is recommended that you control the <em>open</em> and <em>close</em> state of Accordions using JavaScript or a framework of your choice.",
+    "examples": ["exampleA", "exampleB", "exampleC"]
+  },
+  {
+    "id": "alert",
+    "title": "Alert",
+    "description": "Alerts are used to display an emphasized message to the user. They are commonly themed based on the context of the message.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD", "exampleE"]
+  },
+  {
+    "id": "badge",
+    "title": "Badge",
+    "description": "Badges, sometimes called Labels or Tags, are small descriptors that help identify or categorize content. Badges are styled similarly to buttons, but generally have less padding and / or a smaller font size.",
+    "examples": ["exampleA", "exampleB", "exampleC"]
+  },
+  {
+    "id": "button",
+    "title": "Button",
+    "description": "Buttons are used to handle user input. They are often used within forms, but are also used as links. Buttons are typically themed based on the context of their actions.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD", "exampleE"]
+  },
+  {
+    "id": "button_group",
+    "title": "Button Group",
+    "description": "Button groups are used to group a set of related actions. They are also sometimes used as toolbars. They can be displayed in a row or stacked vertically.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD"]
+  },
+  {
+    "id": "card",
+    "title": "Card",
+    "description": "Cards are used as containers for content. They sometimes have headers and footers that display a title or user actions.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD"]
+  },
+  {
+    "id": "collapse",
+    "title": "Collapse",
+    "description": "A Collapse is used to hide / show content. Collapses commonly have a title and an arrow indicator that changes with the collapsed state.",
+    "examples": ["exampleA", "exampleB"]
+  },
+  {
+    "id": "dropdown",
+    "title": "Dropdown",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC"]
+  },
+  {
+    "id": "indicator",
+    "title": "Indicator",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC"]
+  },
+  {
+    "id": "list_group",
+    "title": "List Group",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB"]
+  },
+  {
+    "id": "menu",
+    "title": "Menu",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD", "exampleE"]
+  },
+  {
+    "id": "modal",
+    "title": "Modal",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC"]
+  },
+  {
+    "id": "navbar",
+    "title": "Navbar",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD"]
+  },
+  {
+    "id": "tab_group",
+    "title": "Tab Group",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC"]
+  },
+  {
+    "id": "toast",
+    "title": "Toast",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "exampleC", "exampleD"]
+  },
+  {
+    "id": "tooltip",
+    "title": "Tooltip",
+    "description": "Work in progress.",
+    "examples": ["exampleA", "exampleB", "tooltipC"]
+  }
+]

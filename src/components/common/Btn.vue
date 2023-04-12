@@ -1,6 +1,6 @@
 <template>
     <div
-         class="flex items-center justify-center px-3 py-1  text-sm bg-gray-600 hover:bg-gray-500 active:bg-gray-700 cursor-pointer border text-gray-50 rounded">
+         class="flex items-center justify-center px-3 py-1  text-sm bg-neutral-600 hover:bg-neutral-500 active:bg-neutral-700 cursor-pointer border text-neutral-50 rounded">
         <slot></slot>
     </div>
 </template>

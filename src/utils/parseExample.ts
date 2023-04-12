@@ -6,12 +6,18 @@ async function parseExample(path: string, id: string) {
   const comments = Array.prototype.filter.call(div.childNodes, (el) => {
     return el.nodeType == 8;
   });
-  const title = comments.length ? comments[0].data : "Untitled";
+
+  let title = "Untitled";
+  let tags = [];
+  if (comments.length) {
+    title = comments[0].data || "Untitled";
+    tags = comments[1] ? comments[1].data.split(",") : [];
+  }
 
   text = text.replace(/<\!--.*?-->/g, "");
   text = text.trim();
 
-  return { id, title, code: text };
+  return { id, title, code: text, tags };
 }
 
 export default async function parseExamples(path: string, examples: string[]) {
@@ -19,6 +25,7 @@ export default async function parseExamples(path: string, examples: string[]) {
     id: string;
     title: any;
     code: string;
+    tags: string[];
   }>[] = [];
 
   examples.forEach((id) => {

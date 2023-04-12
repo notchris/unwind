@@ -1,0 +1,56 @@
+<!-- Basic Tooltip -->
+<!-- Functional,Popper -->
+<div class="group max-w-fit">
+  <button
+    id="hover"
+    type="button"
+    class="px-2.5 py-1.5 rounded border hover:bg-neutral-100 active:bg-neutral-200"
+  >
+    Button
+  </button>
+  <div
+    id="tooltip"
+    class="px-2.5 py-1.5 rounded bg-neutral-300 max-w-fit text-center text-sm hidden group-hover:block"
+  >
+    <span>Example tooltip</span>
+    <div id="arrow" data-popper-arrow></div>
+  </div>
+</div>
+<script>
+  import { createPopper } from "@popperjs/core";
+
+  const button = document.querySelector("#hover");
+  const tooltip = document.querySelector("#tooltip");
+
+  const instance = createPopper(button, tooltip, {
+    placement: "top",
+    modifiers: [
+      {
+        name: "offset",
+        options: {
+          offset: [0, 8],
+        },
+      },
+    ],
+  });
+
+  function show() {
+    tooltip.setAttribute("data-show", "");
+    instance.update();
+  }
+
+  function hide() {
+    tooltip.removeAttribute("data-show");
+  }
+
+  const showEvents = ["mouseenter", "focus"];
+  const hideEvents = ["mouseleave", "blur"];
+
+  showEvents.forEach((event) => {
+    button.addEventListener(event, show);
+  });
+
+  hideEvents.forEach((event) => {
+    button.addEventListener(event, hide);
+  });
+</script>

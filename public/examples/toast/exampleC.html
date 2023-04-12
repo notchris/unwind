@@ -1,0 +1,31 @@
+<!-- Toast with animated indicator -->
+<!-- Static -->
+<div class="flex items-center justify-between p-2.5 rounded border w-96">
+  <div class="flex items-center gap-2.5">
+    <div class="flex justify-center items-center relative mx-2">
+      <div
+        class="animate-ping absolute inline-flex items-center justify-center w-3 h-3 text-sm text-white bg-indigo-500 opacity-75 rounded-full"
+      ></div>
+      <div
+        class="absolute inline-flex items-center justify-center w-3 h-3 text-sm text-white bg-indigo-500 rounded-full"
+      ></div>
+    </div>
+    <div>An action has completed.</div>
+  </div>
+  <button type="button" class="group">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="group-hover:stroke-neutral-400 group-active:stroke-neutral-600 stroke-neutral-500"
+    >
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+  </button>
+</div>

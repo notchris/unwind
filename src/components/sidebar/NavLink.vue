@@ -1,5 +1,5 @@
 <template>
-    <router-link class="text-gray-50 [&:not(.router-link-active)]:hover:text-gray-300 transition-colors py-1 pl-3 pr-20 text-sm flex gap-2 items-center"
+    <router-link class="text-gray-700 [&:not(.router-link-active)]:text-gray-100 [&:not(.router-link-active)]:hover:text-gray-300 transition-colors py-1 pl-3 pr-20 text-sm flex gap-2 items-center"
                  :to="to">
         <span>{{ label }}</span>
     </router-link>

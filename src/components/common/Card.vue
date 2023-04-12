@@ -1,5 +1,5 @@
 <template>
-    <div class='block bg-white border border-gray-200 rounded w-full'>
+    <div class='block bg-white border border-neutral-200 rounded w-full'>
         <header>
             <slot name="header"></slot>
         </header>

@@ -1,8 +1,8 @@
 <template>
   <div class="h-screen flex">
     <MainSidebar></MainSidebar>
-    <div class="flex flex-col flex-1 h-screen bg-gray-50">
-      <div class="w-full h-full overflow-y-auto">
+    <div class="flex flex-col flex-1 h-screen bg-neutral-50">
+      <div class="w-full h-full overflow-y-auto relative">
         <router-view></router-view>
       </div>
     </div>
